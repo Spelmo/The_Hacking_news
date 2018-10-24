@@ -1,24 +1,22 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a database for The Hacking Project.
 
-Things you may want to cover:
+The database mocks a Hacker news architecture, with 4 tables.
 
-* Ruby version
 
-* System dependencies
+Users : name + email
 
-* Configuration
+Links : url
 
-* Database creation
+Comments : Content
 
-* Database initialization
+CommentComments : Content
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+all Links have a related user.
 
-* ...
+all comments have a related user and link.
+
+all commentcomments have a related user and comment.

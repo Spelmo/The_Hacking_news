@@ -5,6 +5,7 @@ This is a database for The Hacking Project.
 The database mocks a Hacker news architecture, with 4 tables.
 
 
+
 Users : name + email
 
 Links : url
@@ -12,6 +13,7 @@ Links : url
 Comments : Content
 
 CommentComments : Content
+
 
 
 
